@@ -1,0 +1,3 @@
+getEnergyStored: function
+getTransferPerTick: function
+getMaxEnergyStored: function

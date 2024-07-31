@@ -1,0 +1,8 @@
+setSignalLowFlow: function
+getSignalLowFlow: function
+setSignalHighFlow: function
+setOverrideEnabled: function
+getSignalHighFlow: function
+setFlowOverride: function
+getFlow: function
+getOverrideEnabled: function
