@@ -1,1 +1,1 @@
-print( "Hello new computer!" )
+print( "Hello new script!" )
