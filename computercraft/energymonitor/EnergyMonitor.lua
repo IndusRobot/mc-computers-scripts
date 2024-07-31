@@ -35,6 +35,14 @@ end
 
 EnergyMonitor.constructMonitorGUI = function ( payload ) 
     local instancedMonitor = EnergyMonitor.monitors[ payload.monitorId ]
+
+    instancedMonitor.addLabel( {
+        id = "genericreactorlabel",
+        text = "Draconic Reactor " .. payload.monitorId,
+        x = 1,
+        y = 1,
+        textColor = colors.blue
+    } )
 end
 
 EnergyMonitor.startMainMonitorListener = function () 
