@@ -1,5 +1,5 @@
 
-local MonitorAPI = require( "MonitorAPI-v1.1" )
+local MonitorAPI = require( "MonitorAPI-v1-1" )
 
 local EnergyMonitor = {
     monitors = {},
